@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({  
   plugins: [react()],
-  base: '/Todo-List-React/'
+  base: '/Todo-List-React/',
+  root: 'Frontend'
 })
