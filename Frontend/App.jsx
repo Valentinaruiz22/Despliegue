@@ -2,7 +2,7 @@ import TodoItem from "./TodoItem"
 import { useState, useEffect } from "react"
 import "./App.css"
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api/tareas";
+const API_URL = import.meta.env.VITE_API_URL || "https://despliegue-backend-qe21.onrender.com/api/tareas";
 
 export default function App() {
 
